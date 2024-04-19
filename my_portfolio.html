@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)https://tomledeakin.pages.dev/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./my_portfolio_files/style.css">
+    <link rel="stylesheet" href="./my_portfolio_files/mediaqueries.css">
+  </head>
+  <body style="background-color: #A9FACC; color: #FF7809;">
+    <nav id="desktop-nav">
+      <div class="logo">Hai Nam LE</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="https://tomledeakin.pages.dev/#about">Additional Training</a></li>
+          <li><a href="https://tomledeakin.pages.dev/#projects">Projects</a></li>
+          <li><a href="https://tomledeakin.pages.dev/#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Hai Nam LE</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="https://tomledeakin.pages.dev/#about" onclick="toggleMenu()">Additional Training</a></li>
+          <li><a href="https://tomledeakin.pages.dev/#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="https://tomledeakin.pages.dev/#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+
+    <section id="profile" style="text-align: center;">
+      <div class="section__text">
+        <img src="./my_portfolio_files/me.png" alt="Small Image" class="small-image">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Hai Nam LE</h1>
+        <p class="section__text__p2">AI Student</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open(&#39;./assets/resume.pdf&#39;)">
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href=&#39;./#contact&#39;">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img src="./my_portfolio_files/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href=&#39;https://www.linkedin.com/in/tomledeakin/&#39;">
+          <img src="./my_portfolio_files/github.png" alt="My Github profile" class="icon" onclick="location.href=&#39;https://github.com/tomledeakin&#39;">
+        </div>
+      </div>
+      <div class="education">
+        <div class="education">
+          <h2>Bachelor of Artificial Intelligence</h2>
+          <p><strong>Deakin University, Burwood</strong></p>
+          <p><em>(02/2023 – Current)</em></p>
+        <ul>
+          <li>Expected graduation date: <strong>06/2025</strong></li>
+          <li><strong>Achievements:</strong></li>
+          <ul>
+            <li>Diploma of IT: <strong>WAM of 93</strong></li>
+            <li>Units:</li>
+            <ul>
+              <li><strong>Introduction to Programming (SIT102):</strong> 97.00 HD</li>
+              <li><strong>Data and Information Management (SIT103):</strong> 84.00 HD</li>
+              <li><strong>Exploring I.T. (SIT124):</strong> 88.00 HD</li>
+              <li><strong>Computer Systems (SIT111):</strong> 97.00 HD</li>
+              <li><strong>Introduction to Mathematical Modelling (SIT194):</strong> 100.00 HD</li>
+              <li><strong>Applied Algebra and Statistics (SIT199):</strong> 100.00 HD</li>
+              <li><strong>Data Science Concepts (SIT112):</strong> 85.00 HD</li>
+              <li><strong>Discrete Mathematics (SIT192):</strong> 89.00 HD</li>
+            </ul>
+          </ul>
+        </ul>
+      </div>
+    </div></section>
+    
+    
+    
+    
+    <section id="about">
+      <p class="section__text__p1">Explore My Journey</p>
+      <h1 class="title">Additional Training</h1>
+      <div class="timeline-grid">
+        <div class="timeline-event">
+          <div class="event-details">
+            <h3>Deep Learning For Computer Vision</h3>
+            <div class="event-meta">
+              <span class="date">03/2024 - Current,</span>
+              <span class="author">Viet Nguyen AI</span>
+              <span class="github"><a href="https://github.com/uvipen">GitHub</a></span>
+            </div>
+            <ul>
+              <li>Developed CNNs for image classification, achieving high accuracy on datasets like CIFAR-10.</li>
+              <li>Researched object detection and segmentation techniques, improving accuracy with models like YOLO and Mask R-CNN.</li>
+              <li>Deployed deep learning models for applications like facial recognition and autonomous vehicle perception, showcasing practical computer vision solutions.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-event">
+          <div class="event-details">
+            <h3>Advanced Machine Learning</h3>
+            <div class="event-meta">
+              <span class="date">01/2024 - 03/2024,</span>
+              <span class="author">Viet Nguyen AI</span>
+              <span class="github"><a href="https://github.com/uvipen">GitHub</a></span>
+            </div>
+            <ul>
+              <li>Automated hyperparameter optimization via GridSearchCV and RandomizedSearchCV fine-tunes model settings efficiently, enhancing performance with minimal manual intervention.</li>
+              <li>Flexible preprocessing pipelines with scikit-learn's Pipeline class enable seamless integration of multiple data preprocessing steps, ensuring efficient and reproducible data preparation workflows.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-event">
+          <div class="event-details">
+            <h3>Python for Data Science</h3>
+            <div class="event-meta">
+              <span class="date">09/2023 - 12/2023,</span>
+              <span class="author">AI4E, Vietnam</span>
+            </div>
+            <ul>
+              <li>Taught comprehensive pandas data manipulation techniques, including cleaning and aggregation.</li>
+              <li>Provided introductory machine learning sessions for practical application.</li>
+              <li>Conducted hands-on workshops on NumPy and Matplotlib for effective data analysis and visualization.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-event">
+          <div class="event-details">
+            <h3>Python for Django</h3>
+            <div class="event-meta">
+              <span class="date">08/2023 - 12/2023,</span>
+              <span class="author">T3H, Vietnam</span>
+            </div>
+            <ul>
+              <li>Proficiency in Python programming language, with a strong understanding of Django framework fundamentals.</li>
+              <li>Familiarity with database management systems, particularly PostgreSQL or MySQL.</li>
+              <li>Basic understanding of HTML and CSS, including the ability to create simple web pages and apply basic styling.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./my_portfolio_files/project-1.png" alt="Project 1" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Machine Learning Projects</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href=&#39;https://github.com/tomledeakin/Machine-Learning-Projects&#39;">
+                Github
+              </button>
+
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./my_portfolio_files/project-2.png" alt="Project 2" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">E-Book Website Project</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href=&#39;https://github.com/tomledeakin/e_book&#39;">
+                Github
+              </button>
+
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./my_portfolio_files/project-3.png" alt="Project 3" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">C++ Go Game Project</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href=&#39;https://github.com/tomledeakin/Go-Game&#39;">
+                Github
+              </button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./my_portfolio_files/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href=&#39;./#contact&#39;">
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./my_portfolio_files/email.png" alt="Email icon" class="icon contact-icon email-icon">
+          <p><a href="mailto:tomledeakin@gmail.com">tomledeakin@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./my_portfolio_files/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+          <p><a href="https://www.linkedin.com/in/tomledeakin/">tomledeakin</a></p>
+        </div>
+      </div>
+    </section>
+
+    <script src="./my_portfolio_files/script.js.download"></script>
+  
+
+</body></html>
